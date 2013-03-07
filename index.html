@@ -1,0 +1,58 @@
+<!doctype html>
+<link rel="stylesheet" href="css/gravity.css" type="text/css"/>
+<link rel="stylesheet" href="lib/jquery-ui-1.10.0/css/smoothness/jquery-ui-1.10.0.custom.css " type="text/css"/>
+
+<script type="text/javascript" src="lib/jquery-ui-1.10.0/js/jquery-1.9.0.js"></script>
+<script data-main="scripts/main" src="scripts/require.js"></script>
+
+<html>
+    <header>
+    </header>
+
+    <body >
+        <div class='info'>
+            <div class='data_table'>
+            <table>
+                <tr>
+                    <td>Initial Velocity: </td>
+                    <td><span class='data' id='i_velocity_info'></span></td>
+                    <td><span class='units'>(meters per second)</span></td>
+                    <td> = <span class='data' id='i_velocity_mph_info'></span></td>
+                    <td><span class='units'>(miles per hour)</span></td>
+                </tr>
+                <tr>
+                    <td>Horizontal Velocity: </td>
+                    <td><span class='data' id='h_velocity_info'></span></td>
+                    <td><span class='units'>(meters per second)</span></td>
+                    <td> = <span class='data' id='h_velocity_mph_info'></span></td>
+                    <td><span class='units'>(miles per hour)</span></td>
+                </tr>
+
+                    <td>Intial Angle:</td> 
+                    <td><span class='data' id='angle_info'></span></td> 
+                    <td><span class='units'>(degrees)</span></td>
+                <tr>
+                    <td>Current Time:</td> 
+                    <td><span class='data' id='time_info'></span></td> 
+                    <td><span class='units'>(milliseconds)</span></td>
+                </tr>
+                <tr>
+                    <td>Distance Traveled:</td> 
+                    <td><span class='data' id='dist_info'></span></td> 
+                    <td><span class='units'>(meters)</span></td>
+                </tr>
+            </table>
+            </div>
+            <div class='lion'><img src='images/lion.png' height='100'/></div>
+        </div>
+
+        <div id='gravity'></div> 
+
+        <div class='info info_bottom'>
+            Left click to adjust elevation angle. <br>
+            Mouse wheel to adjust velocity.
+        </div>
+    </body>
+    <footer>
+    </footer>
+</html>

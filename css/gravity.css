@@ -1,0 +1,143 @@
+html {
+    min-height: 100%;
+
+}
+
+.display_window
+{
+    border-width: 2px;
+    border-style: solid;
+    background: #d1d1d1;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+}
+
+#gravity
+{
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+body
+{
+    background: -webkit-linear-gradient(top, #c5deea 0%, #8abbd7 31%, #066dab 100%);
+    background: -moz-linear-gradient(top, #c5deea 0%, #8abbd7 31%, #066dab 100%);
+    overflow: hidden;
+}
+
+header
+{
+    height:25px;
+}
+
+footer
+{
+    height:100px;
+}
+
+
+.grid_major
+{
+   stroke: #101010;
+   stroke-width: 0.1;
+}
+
+.grid_minor
+{
+   stroke: #999999;
+   stroke-width: 0.1;
+}
+
+
+
+.ball
+{
+    stroke: #000000;
+    stroke-width: 0.1;
+    fill: #FFFF00;
+    fill-opacity: 0.7;
+}
+
+
+.target
+{
+    stroke: #000000;
+    stroke-width: 0.1;
+    fill: #FF0000;
+    fill-opacity: 0.7;
+}
+
+
+.vector
+{
+    stroke: blue;
+    stroke-width: 0.2;
+    stroke-linecap: round;
+}
+
+
+.trajectory
+{
+    stroke: red;
+    fill: #FFFFFFFF;
+    stroke-dasharray: 0.1, 0.4;
+    stroke-width: 0.2;
+    fill-opacity: 0;
+    stroke-linecap: round;
+}
+
+.bore_line
+{
+    stroke: black;
+    fill: #FFFFFFFF;
+    stroke-dasharray: 0.9, 0.5;
+    stroke-width: 0.2;
+    fill-opacity: 0;
+    stroke-linecap: round;
+}
+
+.info
+{
+    font-family: sans-serif;
+    color: black;
+    margin: 15px 15px 15px 15px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.info_bottom
+{
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    background: #d1d1d1;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.data
+{
+    color: blue;
+}
+
+.units
+{
+    font-style: italic;
+}
+
+.data_table
+{
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+.lion
+{
+    text-align: right;
+}
